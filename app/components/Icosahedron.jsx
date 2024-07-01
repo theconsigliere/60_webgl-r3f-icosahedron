@@ -20,6 +20,7 @@ export default function Icosahedron() {
   useFrame((state, delta) => {
     ref.current.uTime += delta * 0.05
     ico.current.rotation.y += 0.05 * delta * shaderProps.rotation
+    ico.current.rotation.x += 0.05 * delta * shaderProps.rotation
   })
 
   const texture = () => {

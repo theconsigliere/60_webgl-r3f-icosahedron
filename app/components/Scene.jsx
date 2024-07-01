@@ -4,7 +4,6 @@ import { Model } from "./Model"
 import { Perf } from "r3f-perf"
 import { Environment, OrbitControls } from "@react-three/drei"
 
-import Plane from "./Plane"
 import Icosahedron from "./Icosahedron"
 
 export default function Scene() {
